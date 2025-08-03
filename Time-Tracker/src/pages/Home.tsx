@@ -10,7 +10,7 @@ const Home = () => {
 
     setData((prev) => [...prev,{activity,hours}] );
 
-    console.log(data);
+    
 
 }
 

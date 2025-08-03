@@ -10,7 +10,7 @@ type Props = {
 }
 const MoodOutput = ({subject,footer,onReset}:Props) => {
   return (
-    <div>
+    <div className="space-y-6">
         <Input value={subject}></Input>
       <Textarea value={footer}></Textarea>
       <Button variant="destructive"

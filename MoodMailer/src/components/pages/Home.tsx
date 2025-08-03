@@ -36,8 +36,8 @@ const Home = () => {
     }
 
   return (
-    <div>
-
+    <div className="max-w-xl mx-auto mt-20 p-6 rounded-lg shadow-sm bg-white space-y-6">
+        <h2 className="text-2xl font-bold tet-gray-800">Mood Mailer</h2>
     {!generated ?
                  (<MoodInput 
                             mood={mood} 

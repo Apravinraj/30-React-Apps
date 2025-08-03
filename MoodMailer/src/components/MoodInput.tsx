@@ -12,8 +12,8 @@ disabled:boolean
 const MoodInput = ({mood,setMood,onGenerate,disabled} : Props) => {
     
   return (
-    <div>
-      <h1>Mood Mailer</h1> 
+    <div className="space-y-6">
+     
       <Input
       
       placeholder="Whats your current Mood"
@@ -25,7 +25,7 @@ const MoodInput = ({mood,setMood,onGenerate,disabled} : Props) => {
 
       <Button
       onClick={onGenerate}
-      disabled={disabled}> Click me</Button>
+      disabled={disabled}> Generate Email Template</Button>
     </div>
   )
 }

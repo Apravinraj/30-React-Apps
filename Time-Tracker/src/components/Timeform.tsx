@@ -14,6 +14,8 @@ const Timeform = ({addData}:Props) => {
 
     const handleSubmit = () => {
       addData(activity,Number(hours))
+      setActivity("");
+      setHours("");
     }
 
   return (
